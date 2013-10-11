@@ -1,0 +1,64 @@
+html,body
+{
+	padding:0px;
+	margin:0px;
+	height:99%;
+}
+h1.title
+{
+	font-size:32pt;
+	font-family:Courier New;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:normal;
+}
+
+table.content
+{
+	border: 0px;
+	height:100%;
+	width:100%;
+    font-size:12pt;
+	font-family:Courier New;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:normal;
+}
+input
+{
+    font-size:12pt;
+	font-family:Courier New;
+	vertical-align:middle;
+	text-align:center;
+	font-weight:normal;
+}
+a:link 
+{
+    color: #AAAAAA; 
+    text-decoration: underline;
+}
+a:visited 
+{
+    color: #AAAAAA; 
+    text-decoration: underline;
+}
+a:hover 
+{
+    color: #AAAAAA; 
+    text-decoration: none;
+}
+div.grammar
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 480px;
+  background-color: #DDDDDD;
+  display: none;
+  z-index: 2;
+  border: 1px solid #000000;
+  font-size: 8pt;
+  font-family: Courier New;
+  font-weight: normal;
+}
